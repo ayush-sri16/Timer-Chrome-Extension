@@ -1,0 +1,33 @@
+body{
+    height: 300px;
+    width: 250px;
+    text-align: center;
+    background-color: azure;
+    color: rgb(97, 92, 86);
+}
+
+h1{
+    color: rgb(20, 20, 20);
+}
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.btns button{
+    padding: 3px 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+#start{
+    background-color: rgb(157, 247, 22);
+    
+}
+#stop{
+    background-color: rgb(181, 14, 14);
+    color: aliceblue;
+}
+#reset{
+    background-color: aquamarine;
+}
